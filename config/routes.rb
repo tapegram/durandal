@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_for :users
   root "pages#index"
 
-  get 'user/:id' => "pages#home"
+  get 'home' => "pages#home"
 
   get 'profile' => "pages#profile"
 

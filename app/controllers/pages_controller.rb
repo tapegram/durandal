@@ -4,8 +4,8 @@ class PagesController < ApplicationController
 
   def home
     # grab the username from the URL as :id
-    if (User.find_by_username(params[:id]))
-      @username = params[:id]
+    if !current_user.nil?
+      @username = current_user.username
     else
       # redirects to 404 (root for now)
       redirect_to root_path, :notice => "User not found!"

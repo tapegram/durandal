@@ -1,16 +1,82 @@
 index
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12">
-			<h2>
-				Heading
-			</h2>
-			<p>
-				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-			</p>
-			<p>
-				<a class="btn" href="#">View details »</a>
-			</p>
-		</div>
-	</div>
-</div>
+<% if !user_signed_in? %>
+    <style>
+        body {
+            background: linear-gradient(
+                rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)
+                ), url("/nyc.jpg");
+            
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+        h1 {
+            color: white;
+            font-weight: bold;
+        }
+        
+        .text {
+            color: white;
+            font-weight: 300;
+            font-size: 150%;
+        }
+        
+        .container-index {
+            margin-right: 15%;
+            margin-left: 15%;
+        }
+        
+        .footer-links {
+            text-align: center;
+            color: white;
+            margin-top: 20%;
+        }
+        
+        .log-in {
+            float: right;
+            width: 300px;
+            height: 150px;
+            margin-top: 7.5%;
+        }
+        
+        .sign-up {
+            float: right;
+            width: 300px;
+            height: 250px;
+        }
+    </style>
+    
+    <div class="container-index row">
+        <div class="col-sm-6">
+            <h1>Welcome to Flutter</h1>
+            <p class="text">
+                Connect with your buddies. <br>
+                Chat with new friends. <br>
+                Share your adventures. <br>
+                Just like a blog, but with fewer characters!
+            </p>
+        </div>
+        
+        <div class="col-sm-6">
+            <div class="log-in panel">
+                Log in
+            </div>
+            
+            <div class="sign-up panel">
+                Sign up
+            </div>
+        </div>
+            
+        <div class="col-sm-12">
+            <p class="footer-links">About Help Blog Status jobs Terms Privacy Cookies Ads Info Brand Advertise Businesses Media Developers Directory C 2016 Flutter</p>
+        </div>
+    </div>
+    
+<% else %>
+`<script>
+    document.location = "/home"
+</script>
+<% end %>
