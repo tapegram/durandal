@@ -15,33 +15,17 @@ home
 			</div>
 			<div class="row">
 				<table class="table table-striped">
-					<tr>
-						<td>Choco Therapy</td>
-						<td>Senior</td>
-						<td>Men</td>
-						<td>Epee</td>
-						<td>Individual</td>
-						<td>10/11/16</td>
-						<td><a class="btn btn-primary" href="#">Edit</a></td>
-					</tr>
-					<tr>
-						<td>Choco Therapy</td>
-						<td>Senior</td>
-						<td>Men</td>
-						<td>Foil</td>
-						<td>Individual</td>
-						<td>10/11/16</td>
-						<td><a class="btn btn-primary" href="#">Edit</a></td>
-					</tr>
-					<tr>
-						<td>Choco Therapy</td>
-						<td>Senior</td>
-						<td>Men</td>
-						<td>Sabre</td>
-						<td>Individual</td>
-						<td>10/11/16</td>
-						<td><a class="btn btn-primary" href="#">Edit</a></td>
-					</tr>
+					<% current_user.tournaments.each do |t| %>
+						<tr>
+							<td><%= t.name %></td>
+							<td><%= t.age %></td>
+							<td><%= t.sex %></td>
+							<td><%= t.weapon %></td>
+							<td><%= t.team ? "Team" : "Individual" %></td>
+							<td><%= t.date %></td>
+							<td><a class="btn btn-primary" href="#">Edit</a></td>
+						</tr>
+					<% end %>
 				</table>
 			</div>
 		</div>

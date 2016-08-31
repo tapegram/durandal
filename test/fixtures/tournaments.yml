@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  weapon: MyString
+  sex: MyString
+  age: MyString
+  team: false
+  date: 2016-08-31
+
+two:
+  name: MyString
+  weapon: MyString
+  sex: MyString
+  age: MyString
+  team: false
+  date: 2016-08-31

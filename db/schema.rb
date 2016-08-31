@@ -11,7 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160829014505) do
+ActiveRecord::Schema.define(version: 20160831020124) do
+
+  create_table "tournaments", force: :cascade do |t|
+    t.string   "name"
+    t.string   "weapon"
+    t.string   "sex"
+    t.string   "age"
+    t.boolean  "team"
+    t.date     "date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "user_id"
+  end
+
+  add_index "tournaments", ["user_id"], name: "index_tournaments_on_user_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -27,10 +41,12 @@ ActiveRecord::Schema.define(version: 20160829014505) do
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
     t.string   "username"
+    t.integer  "tournament_id"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+  add_index "users", ["tournament_id"], name: "index_users_on_tournament_id"
   add_index "users", ["username"], name: "index_users_on_username", unique: true
 
 end
