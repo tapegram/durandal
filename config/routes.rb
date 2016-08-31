@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
   
+  resources :tournaments
+  
+  get 'tournaments/index'
+
+  get 'tournaments/new'
+
+  get 'tournaments/create'
+
+  get 'tournaments/show'
+
   devise_for :users
   root "pages#index"
 

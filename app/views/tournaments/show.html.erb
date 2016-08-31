@@ -1,0 +1,13 @@
+<h1>Tournaments#show</h1>
+<p>Find me in app/views/tournaments/show.html.erb</p>
+
+<p><%= @tournament.name %></p>
+<p><%= @tournament.age %></p>
+<p><%= @tournament.sex %></p>
+<p><%= @tournament.weapon %></p>
+<p><%= @tournament.team ? "Team" : "Individual" %></p>
+<p><%= @tournament.date %></p>
+
+<%= link_to "Back", "/home" %>
+
+<%= link_to "Edit", edit_tournament_path(@tournament) %>
