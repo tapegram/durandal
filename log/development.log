@@ -4263,3 +4263,2195 @@ Processing by PagesController#home as HTML
   Rendered layouts/_nav_user.html.erb (0.3ms)
   Rendered layouts/_nav.html.erb (1.6ms)
 Completed 200 OK in 91ms (Views: 85.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-08-31 03:12:44 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.6ms)
+Completed 200 OK in 140ms (Views: 125.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-08-31 03:12:45 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 66.190.19.54 at 2016-08-31 03:12:51 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.1ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_nav_user.html.erb (0.8ms)
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 103ms (Views: 100.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 66.190.19.54 at 2016-09-01 01:20:51 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (38.8ms)
+  Rendered layouts/_nav_user.html.erb (2.4ms)
+  Rendered layouts/_nav.html.erb (6.8ms)
+Completed 200 OK in 818ms (Views: 792.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:20:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.4ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (101.3ms)
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 182ms (Views: 179.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:20:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 177ms (Views: 88.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:20:58 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 169ms (Views: 166.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:20:59 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (135.4ms)
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 209ms (Views: 206.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:20:59 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 104ms (Views: 101.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:20:59 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 82ms (Views: 79.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:20:59 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 99ms (Views: 96.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:26:13 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTournament Load (0.4ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?[0m  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (140.3ms)
+  Rendered layouts/_nav_user.html.erb (1.9ms)
+  Rendered layouts/_nav.html.erb (12.4ms)
+Completed 200 OK in 1205ms (Views: 1091.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:15 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-09-01 01:26:15 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:15 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:15 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:15 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-09-01 01:26:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/tournaments/edit" for 66.190.19.54 at 2016-09-01 01:26:18 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[35mTournament Load (0.3ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Tournament with 'id'=edit):
+  app/controllers/tournaments_controller.rb:24:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (127.8ms)
+
+
+Started GET "/tournaments/new" for 66.190.19.54 at 2016-09-01 01:27:43 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#new as HTML
+  Rendered tournaments/new.html.erb within layouts/application (81.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (14.3ms)
+Completed 200 OK in 236ms (Views: 217.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/tournaments/edit" for 66.190.19.54 at 2016-09-01 01:27:49 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[35mTournament Load (0.4ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.4ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Tournament with 'id'=edit):
+  app/controllers/tournaments_controller.rb:24:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.2ms)
+
+
+Started GET "/tournaments/edit" for 66.190.19.54 at 2016-09-01 01:29:24 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Tournament with 'id'=edit):
+  app/controllers/tournaments_controller.rb:24:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.3ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:29:32 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?[0m  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (47.8ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.7ms)
+Completed 200 OK in 129ms (Views: 125.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 01:29:43 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTournament Load (0.2ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tournaments/edit.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 106ms (Views: 97.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTournament Load (0.2ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tournaments/edit.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (4.3ms)
+Completed 200 OK in 77ms (Views: 75.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:29 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-09-01 01:30:30 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 66.190.19.54 at 2016-09-01 01:30:43 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 74ms (Views: 73.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:30:44 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.1ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 92ms (Views: 88.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:31:25 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.1ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (15.5ms)
+Completed 200 OK in 98ms (Views: 95.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-09-01 01:31:25 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:25 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:25 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:26 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.6ms)
+Completed 200 OK in 75ms (Views: 72.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-09-01 01:31:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:32:59 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.5ms)
+Completed 200 OK in 186ms (Views: 177.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:00 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:33:15 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.0ms)
+Completed 200 OK in 194ms (Views: 191.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-09-01 01:33:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 01:34:07 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tournaments/edit.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.7ms)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tournaments/new" for 66.190.19.54 at 2016-09-01 01:34:25 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#new as HTML
+  Rendered tournaments/new.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (4.2ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/tournaments" for 66.190.19.54 at 2016-09-01 01:34:33 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hYi7dWw3k3CQssm1+Tbm5laTypxwqX+U5VK94PNEO9g4WcB/rsSZgcn4iLoQBitPylnLLuss3LSZk5gziTAmew==", "tournament"=>{"name"=>"Poop House", "age"=>"", "sex"=>"", "weapon"=>"", "team"=>"0", "date"=>"2016-08-05"}, "commit"=>"Create!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "tournaments" ("name", "age", "weapon", "team", "date", "sex", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Poop House"], ["age", ""], ["weapon", ""], ["team", "f"], ["date", "2016-08-05"], ["sex", ""], ["created_at", "2016-09-01 01:34:33.834858"], ["updated_at", "2016-09-01 01:34:33.834858"]]
+  [1m[35m (10.0ms)[0m  commit transaction
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "tournaments" SET "user_id" = ?, "updated_at" = ? WHERE "tournaments"."id" = ?[0m  [["user_id", 2], ["updated_at", "2016-09-01 01:34:34.009375"], ["id", 5]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "tournament_id" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["tournament_id", 5], ["updated_at", "2016-09-01 01:34:34.012609"], ["id", 2]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+Redirected to https://durandal-tapegram.c9users.io/tournaments/5
+Completed 302 Found in 192ms (ActiveRecord: 22.2ms)
+
+
+Started GET "/tournaments/5" for 66.190.19.54 at 2016-09-01 01:34:34 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mTournament Load (0.2ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered tournaments/show.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.7ms)
+Completed 200 OK in 80ms (Views: 78.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:34:35 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTournament Load (0.1ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?[0m  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_nav_user.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 64ms (Views: 62.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:37:54 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?[0m  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_nav_user.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 73ms (Views: 70.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-09-01 01:37:54 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-09-01 01:37:55 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/tournaments/new" for 66.190.19.54 at 2016-09-01 01:37:56 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#new as HTML
+  Rendered tournaments/new.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial tournaments/_tournament_info, application/_tournament_info with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+  * "/usr/local/rvm/gems/ruby-2.3.0/gems/devise-4.2.0/app/views"
+):
+    1: <%= render "tournament_info" %>
+  app/views/tournaments/new.html.erb:1:in `_app_views_tournaments_new_html_erb__2420865431487016034_70018872345480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (77.7ms)
+
+
+Started GET "/tournaments/new" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#new as HTML
+  Rendered layouts/_tournament_info.html.erb (4.8ms)
+  Rendered tournaments/new.html.erb within layouts/application (7.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 198ms (Views: 196.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:15 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-09-01 01:38:15 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/tournaments" for 66.190.19.54 at 2016-09-01 01:38:40 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b2s29ifLICh5foMxOzgdzM52A889vqH3uEX4ssRqNdvSuk385Tgq2SA0wj7SCNBlUrwCfaY7AtfEhN1hvh4oeA==", "tournament"=>{"name"=>"Testing Partial", "age"=>"Senior", "sex"=>"Female", "weapon"=>"Epee", "team"=>"1", "date"=>"2016-09-01"}, "commit"=>"Create!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tournaments" ("name", "age", "weapon", "team", "date", "sex", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["name", "Testing Partial"], ["age", "Senior"], ["weapon", "Epee"], ["team", "t"], ["date", "2016-09-01"], ["sex", "Female"], ["created_at", "2016-09-01 01:38:40.078600"], ["updated_at", "2016-09-01 01:38:40.078600"]]
+  [1m[36m (10.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "tournaments" SET "user_id" = ?, "updated_at" = ? WHERE "tournaments"."id" = ?  [["user_id", 2], ["updated_at", "2016-09-01 01:38:40.092957"], ["id", 6]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "users" SET "tournament_id" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["tournament_id", 6], ["updated_at", "2016-09-01 01:38:40.094741"], ["id", 2]]
+  [1m[35m (6.9ms)[0m  commit transaction
+Redirected to https://durandal-tapegram.c9users.io/tournaments/6
+Completed 302 Found in 132ms (ActiveRecord: 18.4ms)
+
+
+Started GET "/tournaments/6" for 66.190.19.54 at 2016-09-01 01:38:40 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered tournaments/show.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:38:46 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_nav_user.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.5ms)
+Completed 200 OK in 120ms (Views: 118.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.1ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_nav_user.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.3ms)
+Completed 200 OK in 79ms (Views: 76.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-09-01 01:39:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/tournaments/6/edit" for 66.190.19.54 at 2016-09-01 01:39:18 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_tournament_info.html.erb (3.8ms)
+  Rendered tournaments/edit.html.erb within layouts/application (6.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (4.0ms)
+Completed 200 OK in 205ms (Views: 203.4ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/tournaments/6" for 66.190.19.54 at 2016-09-01 01:39:25 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TournamentsController):
+  actionpack (4.2.5) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  warden (1.2.6) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.6) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.6) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+
+
+Started PATCH "/tournaments/6" for 66.190.19.54 at 2016-09-01 01:41:57 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hMquWF/RFB1dZdSguRKlY5bjFhd8VQJ4eLjXGYirv0c5G9VSnSIe7AQvla9QImjKCikXpefQoVgEefLK8t+i5A==", "tournament"=>{"name"=>"Testing Partial (after edit)", "age"=>"Senior", "sex"=>"Female", "weapon"=>"Epee", "team"=>"1", "date"=>"2016-09-01"}, "commit"=>"Create!", "id"=>"6"}
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 2.1ms)
+
+ArgumentError (When assigning attributes, you must pass a hash as an argument.):
+  app/controllers/tournaments_controller.rb:25:in `update'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (24.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.0ms)
+
+
+Started PATCH "/tournaments/6" for 66.190.19.54 at 2016-09-01 01:42:30 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hMquWF/RFB1dZdSguRKlY5bjFhd8VQJ4eLjXGYirv0c5G9VSnSIe7AQvla9QImjKCikXpefQoVgEefLK8t+i5A==", "tournament"=>{"name"=>"Testing Partial (after edit)", "age"=>"Senior", "sex"=>"Female", "weapon"=>"Epee", "team"=>"1", "date"=>"2016-09-01"}, "commit"=>"Create!", "id"=>"6"}
+  [1m[35mTournament Load (0.4ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "tournaments" SET "name" = ?, "updated_at" = ? WHERE "tournaments"."id" = ?  [["name", "Testing Partial (after edit)"], ["updated_at", "2016-09-01 01:42:30.430491"], ["id", 6]]
+  [1m[36m (10.2ms)[0m  [1mcommit transaction[0m
+Redirected to https://durandal-tapegram.c9users.io/tournaments/6
+Completed 302 Found in 38ms (ActiveRecord: 12.3ms)
+
+
+Started GET "/tournaments/6" for 66.190.19.54 at 2016-09-01 01:42:30 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mTournament Load (0.2ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered tournaments/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (14.0ms)
+Completed 200 OK in 83ms (Views: 81.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 66.190.19.54 at 2016-09-01 01:42:30 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:30 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:30 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tournaments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 66.190.19.54 at 2016-09-01 01:42:31 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 01:42:35 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?[0m  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (66.8ms)
+Completed 200 OK in 145ms (Views: 142.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 01:43:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTournament Load (0.2ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (3.2ms)
+  Rendered tournaments/edit.html.erb within layouts/application (4.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 135ms (Views: 76.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:08:30 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTournament Load (0.3ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (6.2ms)
+  Rendered tournaments/edit.html.erb within layouts/application (60.0ms)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 2.7ms)
+
+ActionView::Template::Error (undefined method `registration_tournament_path' for #<#<Class:0x007f5d21d052c0>:0x007f5d21ce89b8>
+Did you mean?  registration_path):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", registration_tournament_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb___2462056522150003787_70018987907480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (118.9ms)
+
+
+Started GET "/" for 66.190.19.54 at 2016-09-01 02:09:42 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (58.5ms)
+  Rendered layouts/_nav_user.html.erb (2.1ms)
+  Rendered layouts/_nav.html.erb (6.2ms)
+Completed 200 OK in 888ms (Views: 855.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 02:09:44 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.5ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (279.7ms)
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 379ms (Views: 372.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:09:47 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (72.7ms)
+  Rendered tournaments/edit.html.erb within layouts/application (120.1ms)
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `registration_tournament_path' for #<#<Class:0x007fe0fe3d5f18>:0x007fe0fe3df568>
+Did you mean?  registration_path):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", registration_tournament_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb___2671217872973388436_70302157435240'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (105.3ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:11:28 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTournament Load (0.2ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (3.3ms)
+  Rendered tournaments/edit.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (Could not find a valid mapping for #<Tournament id: 1, name: "Chocotherapy Open", weapon: "Epee", sex: "Mixed", age: "Senior", team: false, date: "2016-08-31", created_at: "2016-08-31 01:48:28", updated_at: "2016-08-31 02:03:49", user_id: 2>):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", registration_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb___2671217872973388436_39918220'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.7ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:11:54 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (4.8ms)
+  Rendered tournaments/edit.html.erb within layouts/application (54.1ms)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `registration_tournament_path' for #<#<Class:0x007fe0fe3d5f18>:0x00000003d19068>
+Did you mean?  registration_path):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", registration_tournament_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb___2671217872973388436_31924840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (95.4ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:12:52 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTournament Load (0.2ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (4.2ms)
+  Rendered tournaments/edit.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 2.3ms)
+
+ActionView::Template::Error (Could not find a valid mapping for #<Tournament id: 1, name: "Chocotherapy Open", weapon: "Epee", sex: "Mixed", age: "Senior", team: false, date: "2016-08-31", created_at: "2016-08-31 01:48:28", updated_at: "2016-08-31 02:03:49", user_id: 2>):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", registration_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb___2671217872973388436_70302153176080'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (93.8ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:14:48 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (4.5ms)
+  Rendered tournaments/edit.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (Could not find a valid mapping for #<Tournament id: 1, name: "Chocotherapy Open", weapon: "Epee", sex: "Mixed", age: "Senior", team: false, date: "2016-08-31", created_at: "2016-08-31 01:48:28", updated_at: "2016-08-31 02:03:49", user_id: 2>):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", registration_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb___2671217872973388436_70302157080720'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (93.7ms)
+
+
+Started GET "/" for 66.190.19.54 at 2016-09-01 02:17:33 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (44.8ms)
+  Rendered layouts/_nav_user.html.erb (1.7ms)
+  Rendered layouts/_nav.html.erb (4.2ms)
+Completed 200 OK in 598ms (Views: 575.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 02:17:34 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (139.8ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.6ms)
+Completed 200 OK in 239ms (Views: 234.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:17:36 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (97.7ms)
+  Rendered tournaments/edit.html.erb within layouts/application (100.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 174ms (Views: 172.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tournaments/registration.1" for 66.190.19.54 at 2016-09-01 02:17:39 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#show as 
+  Parameters: {"id"=>"registration"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Tournament with 'id'=registration):
+  app/controllers/tournaments_controller.rb:37:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.1ms)
+
+
+Started GET "/tournaments/registration.1" for 66.190.19.54 at 2016-09-01 02:18:04 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#show as 
+  Parameters: {"id"=>"registration"}
+  [1m[35mTournament Load (0.2ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 83ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Tournament with 'id'=registration):
+  app/controllers/tournaments_controller.rb:37:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.2ms)
+
+
+Started GET "/" for 66.190.19.54 at 2016-09-01 02:18:12 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 172ms (Views: 171.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 02:18:13 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?[0m  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_nav_user.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 104ms (Views: 102.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:18:15 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTournament Load (0.2ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (3.1ms)
+  Rendered tournaments/edit.html.erb within layouts/application (45.1ms)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `registration_tournaments_path' for #<#<Class:0x007f79be3555b8>:0x007f79bd48ae20>
+Did you mean?  registration_path):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", registration_tournaments_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb___1225541347045801747_70080421707980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (100.3ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:18:38 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (2.5ms)
+  Rendered tournaments/edit.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (Could not find a valid mapping for #<Tournament id: 1, name: "Chocotherapy Open", weapon: "Epee", sex: "Mixed", age: "Senior", team: false, date: "2016-08-31", created_at: "2016-08-31 01:48:28", updated_at: "2016-08-31 02:03:49", user_id: 2>):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", registration_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb___1225541347045801747_70080431091400'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.3ms)
+
+
+Started GET "/tournaments/2/edit" for 66.190.19.54 at 2016-09-01 02:19:02 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTournament Load (0.3ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_tournament_info.html.erb (3.5ms)
+  Rendered tournaments/edit.html.erb within layouts/application (179.5ms)
+Completed 500 Internal Server Error in 187ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (Could not find a valid mapping for #<Tournament id: 2, name: "Charm City Classic", weapon: "Foil", sex: "Female", age: "Senior", team: true, date: "2016-08-31", created_at: "2016-08-31 02:10:38", updated_at: "2016-08-31 02:11:07", user_id: 2>):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", registration_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb___1225541347045801747_70080431091400'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (108.1ms)
+
+
+Started GET "/" for 66.190.19.54 at 2016-09-01 02:23:39 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (48.0ms)
+  Rendered layouts/_nav_user.html.erb (1.2ms)
+  Rendered layouts/_nav.html.erb (3.2ms)
+Completed 200 OK in 594ms (Views: 573.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 02:23:40 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.3ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (110.2ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 187ms (Views: 181.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:23:43 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (57.2ms)
+  Rendered tournaments/edit.html.erb within layouts/application (100.7ms)
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `reg_tournament_path' for #<#<Class:0x007ff4019ca548>:0x007ff4023ace30>
+Did you mean?  new_tournament_path):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", reg_tournament_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb__2943272621132899433_70342987872640'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (91.5ms)
+
+
+Started GET "/" for 66.190.19.54 at 2016-09-01 02:26:02 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (13.7ms)
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (1.6ms)
+Completed 200 OK in 97ms (Views: 89.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 02:26:03 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.3ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (14.8ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.6ms)
+Completed 200 OK in 84ms (Views: 81.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tournaments/2/edit" for 66.190.19.54 at 2016-09-01 02:26:04 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_tournament_info.html.erb (3.0ms)
+  Rendered tournaments/edit.html.erb within layouts/application (46.0ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `reg_tournament_path' for #<#<Class:0x007ff4021fbc58>:0x007ff4021ffc40>
+Did you mean?  new_tournament_path):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", reg_tournament_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb__2943272621132899433_70342992196820'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (128.8ms)
+
+
+Started GET "/rails/info/routes" for 66.190.19.54 at 2016-09-01 02:26:49 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::InfoController#routes as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/info/routes.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 66.190.19.54 at 2016-09-01 02:27:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 192ms (Views: 191.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 02:27:16 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.4ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 98ms (Views: 94.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:27:18 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (2.5ms)
+  Rendered tournaments/edit.html.erb within layouts/application (5.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (4.3ms)
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tournaments/reg.1" for 66.190.19.54 at 2016-09-01 02:27:22 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#show as 
+  Parameters: {"id"=>"reg"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Tournament with 'id'=reg):
+  app/controllers/tournaments_controller.rb:37:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (96.5ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 02:28:04 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?[0m  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.9ms)
+Completed 200 OK in 94ms (Views: 91.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tournaments/6/edit" for 66.190.19.54 at 2016-09-01 02:28:10 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mTournament Load (0.2ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered layouts/_tournament_info.html.erb (4.2ms)
+  Rendered tournaments/edit.html.erb within layouts/application (5.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.5ms)
+Completed 200 OK in 181ms (Views: 179.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tournaments/reg.6" for 66.190.19.54 at 2016-09-01 02:28:11 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#show as 
+  Parameters: {"id"=>"reg"}
+  [1m[35mTournament Load (0.2ms)[0m  SELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Tournament with 'id'=reg):
+  app/controllers/tournaments_controller.rb:37:in `show'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.8ms)
+
+
+Started GET "/" for 66.190.19.54 at 2016-09-01 02:30:19 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (59.2ms)
+  Rendered layouts/_nav_user.html.erb (1.6ms)
+  Rendered layouts/_nav.html.erb (4.7ms)
+Completed 200 OK in 588ms (Views: 558.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 02:30:20 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (0.4ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (104.1ms)
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.5ms)
+Completed 200 OK in 188ms (Views: 184.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/tournaments/2/edit" for 66.190.19.54 at 2016-09-01 02:30:22 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_tournament_info.html.erb (46.2ms)
+  Rendered tournaments/edit.html.erb within layouts/application (150.1ms)
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `tournaments_reg_path' for #<#<Class:0x007f06be3d6398>:0x007f06be3dfa10>
+Did you mean?  tournaments_new_path
+               tournaments_path
+               tournament_path
+               tournaments_index_path
+               tournaments_create_path
+               tournaments_edit_path
+               tournaments_create_url
+               tournaments_show_path):
+    5: <%= render "/layouts/tournament_info" %>
+    6: 
+    7: <%= link_to "Home", "/home" %>
+    8: <%= link_to "Registration", tournaments_reg_path(@tournament) %>
+  app/views/tournaments/edit.html.erb:8:in `_app_views_tournaments_edit_html_erb___2124769579531614170_69833469129660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (101.8ms)
+
+
+Started GET "/rails/info/routes" for 66.190.19.54 at 2016-09-01 02:30:39 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::InfoController#routes as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/info/routes.html.erb within layouts/application (41.1ms)
+Completed 200 OK in 122ms (Views: 121.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 66.190.19.54 at 2016-09-01 02:34:11 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered pages/index.html.erb within layouts/application (70.2ms)
+  Rendered layouts/_nav_user.html.erb (1.4ms)
+  Rendered layouts/_nav.html.erb (13.3ms)
+Completed 200 OK in 663ms (Views: 636.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/home" for 66.190.19.54 at 2016-09-01 02:34:12 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTournament Load (1.9ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."user_id" = ?  [["user_id", 2]]
+  Rendered pages/home.html.erb within layouts/application (151.3ms)
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 286ms (Views: 279.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/tournaments/1/edit" for 66.190.19.54 at 2016-09-01 02:34:14 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_tournament_info.html.erb (62.9ms)
+  Rendered tournaments/edit.html.erb within layouts/application (65.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (2.8ms)
+Completed 200 OK in 172ms (Views: 169.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tournaments/reg/1" for 66.190.19.54 at 2016-09-01 02:34:15 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#reg as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tournaments/reg.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 182ms (Views: 179.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tournaments/2/edit" for 66.190.19.54 at 2016-09-01 02:34:21 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered layouts/_tournament_info.html.erb (7.0ms)
+  Rendered tournaments/edit.html.erb within layouts/application (10.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (4.6ms)
+Completed 200 OK in 118ms (Views: 115.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tournaments/reg/2" for 66.190.19.54 at 2016-09-01 02:34:22 +0000
+Cannot render console from 66.190.19.54! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TournamentsController#reg as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT  "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered tournaments/reg.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (5.7ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.3ms)

@@ -7,8 +7,12 @@ Rails.application.routes.draw do
   get 'tournaments/new'
 
   get 'tournaments/create'
+  
+  get 'tournaments/edit'
 
   get 'tournaments/show'
+  
+  get 'tournaments/reg/:id', to: 'tournaments#reg', as: "tournaments/reg"
 
   devise_for :users
   root "pages#index"

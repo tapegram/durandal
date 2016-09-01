@@ -23,7 +23,7 @@ home
 							<td><%= t.weapon %></td>
 							<td><%= t.team ? "Team" : "Individual" %></td>
 							<td><%= t.date %></td>
-							<td><a class="btn btn-primary" href="#">Edit</a></td>
+							<td><%= link_to "Edit", edit_tournament_path(t) %></td>
 						</tr>
 					<% end %>
 				</table>

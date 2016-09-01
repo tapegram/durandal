@@ -10,9 +10,26 @@ class TournamentsController < ApplicationController
     @tournament = Tournament.new(user_params)
     if @tournament.save
         current_user.tournaments << @tournament # Add the new tournament to the user.
-        redirect_to @tournament, alert: "User created successfully."
+        redirect_to @tournament, alert: "Tournament created successfully."
     else
-        redirect_to new_tournament_path, alert: "Error creating user."
+        redirect_to new_tournament_path, alert: "Error creating tournament."
+    end
+  end
+  
+  def edit
+    @tournament = Tournament.find(params[:id])
+  end
+  
+  def reg
+    @tournament = Tournament.find(params[:id])
+  end
+  
+  def update
+    @tournament = Tournament.find(params[:id])
+    if @tournament.update_attributes(user_params)
+        redirect_to @tournament, alert: "tournament updated successfully."
+    else 
+        redirect_to new_tournament_path, alert: "Error updating tournament."
     end
   end
 

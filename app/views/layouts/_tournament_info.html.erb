@@ -1,0 +1,36 @@
+<h1>Tournaments#new</h1>
+<%= form_for(@tournament) do |f| %>
+    <div class="field">
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+    </div>
+    
+    <div class="field">
+        <%= f.label :age %>
+        <%= f.text_field :age %>
+    </div>
+    
+    <div class="field">
+        <%= f.label :sex %>
+        <%= f.text_field :sex %>
+    </div>
+    
+    <div class="field">    
+        <%= f.label :weapon %>
+        <%= f.text_field :weapon %>
+    </div>
+    
+    <div class="field">   
+        <%= f.label :team %>
+        <%= f.check_box :team %>
+     </div>
+     
+     <div class="field">  
+        <%= f.label :date %>
+        <%= f.date_field :date %>
+     </div>
+ 
+    <div class="actions">
+        <%= f.submit "Save" %>
+    </div>
+<% end %>
